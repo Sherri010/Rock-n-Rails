@@ -1,0 +1,7 @@
+
+<% for record in @record %>
+  <li>
+   <%= link_to record.title, records_path %>
+   <%= image_tag record.cover_art %>
+  </li>
+<% end %>
